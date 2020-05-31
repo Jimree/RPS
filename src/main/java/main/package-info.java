@@ -1,7 +1,7 @@
 /**
  * This package is for the Main.
  */
-package hu.unideb.inf.rps.main;
+package inf.unideb.hu.rps.main;
 
 /*-
  * #%L
