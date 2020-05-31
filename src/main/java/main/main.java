@@ -7,7 +7,7 @@ import javax.swing.*;
 
 /**
  * This is the main class that has the whole program.
- * Simplicity was the key ingredient when designing.
+ * Simplicity in the lack of time was the key ingredient when designing.
  */
 
 public class main {
@@ -15,7 +15,7 @@ public class main {
     JButton Rock, Paper, Scissors;
     JTextField humanTF;
     JTextField compTF;
-    JTextField Counter;
+    JTextField counter;
     JPanel mainPanel;
     char hChoice = ' ';
     char cChoice = ' ';
@@ -42,8 +42,8 @@ public class main {
         humanTF.setEditable(false);
         compTF = new JTextField(20);
         compTF.setEditable(false);
-        Counter = new JTextField(30);
-        Counter.setEditable(false);
+        counter = new JTextField(30);
+        counter.setEditable(false);
 
         /**
          * ActionListener for the Rock Button
@@ -108,7 +108,7 @@ public class main {
         mainPanel.setLayout(new FlowLayout());
         mainPanel.add(humanTF);
         mainPanel.add(compTF);
-        mainPanel.add(Counter);
+        mainPanel.add(counter);
         mainPanel.add(Rock);
         mainPanel.add(Paper);
         mainPanel.add(Scissors);
@@ -172,7 +172,7 @@ public class main {
             computerwins++;
         }
 
-        Counter.setText("Ties =  " + tie + ",   Human Wins = " + humanwins + ",   Computer Wins = " + computerwins);
+        counter.setText("Ties =  " + tie + ",   Human Wins = " + humanwins + ",   Computer Wins = " + computerwins);
 
     }
 

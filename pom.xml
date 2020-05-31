@@ -6,7 +6,7 @@
 
     <groupId>inf.unideb.hu</groupId>
     <artifactId>RPS</artifactId>
-    <packaging>pom</packaging>
+    <packaging>jar</packaging>
     <version>0.1-SNAPSHOT</version>
     <description>Rock Paper Scissors game</description>
     <developers>
