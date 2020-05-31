@@ -1,7 +1,7 @@
 /**
  * This package is for the Main.
  */
-package hu.unideb.inf.notebookservice.ui.main;
+package hu.unideb.inf.rps.main;
 
 /*-
  * #%L
