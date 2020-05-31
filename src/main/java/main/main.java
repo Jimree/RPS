@@ -34,9 +34,15 @@ public class main {
 
         RPS = new JFrame("Rock, Paper, Scissors");
         RPS.setSize(600, 600);
-        Rock = new JButton("Rock");
-        Paper = new JButton("Paper");
-        Scissors = new JButton("Scissors");
+        Rock = new JButton();
+        Image rockIcon = new ImageIcon(this.getClass().getResource("/rockicon.png")).getImage();
+        Rock.setIcon(new ImageIcon(rockIcon));
+        Paper = new JButton();
+        Image paperIcon = new ImageIcon(this.getClass().getResource("/papericon.png")).getImage();
+        Paper.setIcon(new ImageIcon(paperIcon));
+        Scissors = new JButton();
+        Image scissorsIcon = new ImageIcon(this.getClass().getResource("/scissorsicon.png")).getImage();
+        Scissors.setIcon(new ImageIcon(scissorsIcon));
         mainPanel = new JPanel();
         humanTF = new JTextField(20);
         humanTF.setEditable(false);
