@@ -35,12 +35,15 @@ public class main {
         RPS = new JFrame("Rock, Paper, Scissors");
         RPS.setSize(600, 600);
         Rock = new JButton();
+        Rock.setFocusPainted(false);
         Image rockIcon = new ImageIcon(this.getClass().getResource("/rockicon.png")).getImage();
         Rock.setIcon(new ImageIcon(rockIcon));
         Paper = new JButton();
+        Paper.setFocusPainted(false);
         Image paperIcon = new ImageIcon(this.getClass().getResource("/papericon.png")).getImage();
         Paper.setIcon(new ImageIcon(paperIcon));
         Scissors = new JButton();
+        Scissors.setFocusPainted(false);
         Image scissorsIcon = new ImageIcon(this.getClass().getResource("/scissorsicon.png")).getImage();
         Scissors.setIcon(new ImageIcon(scissorsIcon));
         mainPanel = new JPanel();
